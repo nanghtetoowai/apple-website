@@ -1,0 +1,57 @@
+.wrapper {
+  padding: 5rem 15rem;
+  .watchApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .image {
+      z-index: 1;
+    }
+    h1 {
+      font-size: 80px;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      text-align: center;
+    }
+    p {
+      font-size: 17px;
+      line-height: 1.4705882353;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+  .features {
+    margin: 5% 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      text-align: center;
+    }
+  }
+  .streamingDevices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    a {
+      color: #2997ff;
+      cursor: pointer;
+      font-size: large;
+      margin-bottom: 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .devices{
+    margin: 5% 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,47 @@
+// .fullScreen {
+//   width: 500px;
+//   height: 500px;
+// }
+.parallax {
+  background-image: url("/images/test.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  font-size: 40px;
+  h1 {
+    margin: 0px;
+  }
+  button {
+    color: #000;
+    background-color: #fff;
+    border-radius: 980px;
+    padding: 15px 26px;
+    outline: none;
+    border: none;
+  }
+}
+.paragraph {
+  padding: 0.1rem 10rem;
+  height: fit-content;
+  background-color: black;
+  p {
+    font-size: 62px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}

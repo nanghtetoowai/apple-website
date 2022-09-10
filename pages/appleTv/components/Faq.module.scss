@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 0.1rem 16rem;
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  .accordion {
+    padding: 10px 0px;
+    button {
+      outline: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: left;
+    }
+    .content {
+      transition: top 0.3s;
+    }
+    .divider {
+      border-bottom: 1px solid rgba(186, 186, 186, 0.858);
+      width: 100%;
+    }
+  }
+}
