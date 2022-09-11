@@ -13,6 +13,7 @@ const BundleApple = () => (
           src="/images/bundle.jpg"
           width={600}
           height={430}
+          className={styles.image}
         />
       </div>
       <div className={styles.col2}>

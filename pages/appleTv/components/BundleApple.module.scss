@@ -50,3 +50,49 @@
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 0.1rem 3rem;
+  }
+  .row {
+    flex-wrap: wrap;
+    width: 100%;
+    .col1 {
+      width: 100% !important;
+    }
+    .col2 {
+      width: 100% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .wrapper {
+    padding: 0.1rem 3rem;
+  }
+  .row {
+    flex-wrap: wrap;
+    .col1 {
+      width: 100% !important;
+    }
+    .col2 {
+      width: 100% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0.1rem 3rem;
+  }
+  .row {
+    flex-wrap: wrap;
+    .col1 {
+      width: 100% !important;
+    }
+    .col2 {
+      width: 100% !important;
+    }
+  }
+}

@@ -48,10 +48,28 @@
       }
     }
   }
-  .devices{
+  .devices {
     margin: 5% 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 4rem !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .wrapper {
+    padding: 4rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 4rem !important;
   }
 }

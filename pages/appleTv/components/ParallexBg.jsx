@@ -55,18 +55,6 @@ const ParallexBg = () => {
     <div>
       <div className={styles.fullScreen}>
         {url && (
-          // <video
-          //   style={{ maxWidth: "100%", width: "100%" }}
-          //   playsInline
-          //   autoPlay={true}
-          //   auto
-          //   loop
-          //   controls
-          //   alt="All the devices"
-          //   src={url}
-          //   ref={videoEl}
-          // />
-
           <ReactPlayer
             className="react-player"
             url={url}
@@ -74,7 +62,6 @@ const ParallexBg = () => {
             playing={isPlaying}
             width="100%"
             height="100%"
-            // light
             loop
             muted={true}
           />
